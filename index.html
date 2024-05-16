@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rizwan's Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Rizwan's Portfolio</h1>
+    <nav>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#reviews">Reviews</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>Welcome to my portfolio website! I am Rizwan, a passionate web developer with expertise in HTML, CSS, and JavaScript.</p>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="project">
+      <h3>Project 1: Portfolio Website</h3>
+      <p>A personal portfolio website showcasing my skills and projects.</p>
+    </div>
+    <!-- Add more project details as needed -->
+  </section>
+
+  <section id="reviews">
+    <h2>Client Reviews</h2>
+    <div class="review">
+      <h3>John Doe</h3>
+      <p>"Rizwan delivered exceptional work on our project. His attention to detail and dedication to meeting deadlines were impressive."</p>
+    </div>
+    <!-- Add more client reviews as needed -->
+  </section>
+
+  <footer id="contact">
+    <h2>Contact Me</h2>
+    <p>Email: rizwan@example.com</p>
+    <p>Phone: +1234567890</p>
+  </footer>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rizwan's Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Rizwan's Portfolio</h1>
+    <nav>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#reviews">Reviews</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="about" class="animated">
+    <h2>About Me</h2>
+    <p>Welcome to my portfolio website! I am Rizwan, a passionate web developer with expertise in HTML, CSS, and JavaScript.</p>
+  </section>
+
+  <section id="image" class="animated">
+    <img src="arn:aws:s3:::rizwanterraformprojectwebsite2024" alt="Luffy" class="portfolio-image">
+  </section>
+
+  <section id="projects" class="animated">
+    <h2>Projects</h2>
+    <div class="project">
+      <h3>Project 1: Portfolio Website</h3>
+      <p>A personal portfolio website showcasing my skills and projects.</p>
+    </div>
+    <!-- Add more project details as needed -->
+  </section>
+
+  <section id="reviews" class="animated">
+    <h2>Client Reviews</h2>
+    <div class="review">
+      <h3>John Doe</h3>
+      <p>"Rizwan delivered exceptional work on our project. His attention to detail and dedication to meeting deadlines were impressive."</p>
+    </div>
+    <!-- Add more client reviews as needed -->
+  </section>
+
+  <footer id="contact" class="animated">
+    <h2>Contact Me</h2>
+    <p>Email: rizwan@example.com</p>
+    <p>Phone: +1234567890</p>
+  </footer>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      const elements = document.querySelectorAll('.animated');
+      elements.forEach(el => el.classList.add('visible'));
+    });
+  </script>
+</body>
+</html>
